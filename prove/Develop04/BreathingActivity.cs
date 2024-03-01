@@ -38,6 +38,7 @@ public class BreathingActivity : Activity
         }
 
         Console.WriteLine(c.Close());
+        Console.WriteLine();
 
     }
     

@@ -75,5 +75,6 @@ public class ReflectingActivity : Activity
             Console.WriteLine();
         }
         Console.WriteLine(b.Close());
+        Console.WriteLine();
     }
 }

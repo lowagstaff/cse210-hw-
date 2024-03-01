@@ -16,6 +16,7 @@ public class ListingActivity : Activity
         _prompts.Add("--Who are some of your personal heroes? ");
 
     }
+    
 
     public void RandomPrompt()
     {
@@ -58,6 +59,7 @@ public class ListingActivity : Activity
 
 
         Console.WriteLine(b.Close());
+        Console.WriteLine();
     }
 
 }
