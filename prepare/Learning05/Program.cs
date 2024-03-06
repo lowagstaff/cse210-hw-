@@ -1,9 +1,9 @@
-using System;
-
 class Program
 {
-    static void Main(string[] args)
+    static void main(string[] args)
     {
-        Console.WriteLine("Hello Learning05 World!");
+    Square s = new ("Blue", 2);
+    Console.WriteLine(s.GetColor());
+    Console.WriteLine(s.GetArea());
     }
 }
